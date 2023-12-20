@@ -1,8 +1,10 @@
 <html>
 <head>
 <script>
+
 	fun(){
-		window.alert("hi");
+	 var pTag = document.getElementById("res");
+	 pTag.value = "hi";
 	}
 </script>
 </head>
@@ -14,5 +16,6 @@
 <button onClick="cal('s')">Sub</button>
 <button onClick="cal('m')">Mul</button>
 <button onClick="cal('d')">Div</button>
+<p id="res"></p>
 </body>
 </html>
