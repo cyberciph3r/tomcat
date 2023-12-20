@@ -6,13 +6,13 @@
 		var n2 = document.getElementById("n2").value;
 		
 		if(op.equals("a")){
-			alert(parseInt(n1)+parseInt(n2));
+			window.alert(n1+n2);
 		}else if(op.equals("s")){
-			alert(parseInt(n1)-parseInt(n2));
+			window.alert(n1-n2);
 		}else if(op.equals("m")){
-			alert(parseInt(n1)*parseInt(n2));
+			window.alert(n1*n2);
 		}else if(op.equals("d")){
-			alert(parseInt(n1)/parseInt(n2));
+			window.alert(n1/n2);
 		}
 	}
 </script>
