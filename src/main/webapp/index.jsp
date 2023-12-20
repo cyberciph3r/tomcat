@@ -10,10 +10,7 @@
 <input id="n2" />
 <button onClick="()=>{
 document.getElementById("res").innerText = "3";
-}" >Add</button>
-<button onClick="cal('s')">Sub</button>
-<button onClick="cal('m')">Mul</button>
-<button onClick="cal('d')">Div</button>
+}" ><p>Add</p></button>
 <p id="res"></p>
 </body>
 </html>
