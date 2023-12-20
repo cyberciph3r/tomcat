@@ -3,8 +3,7 @@
 <script>
 
 	fun(){
-	 var pTag = document.getElementById("res");
-	 pTag.value = "hi";
+	 document.getElementById("res").innerText = "3";
 	}
 </script>
 </head>
