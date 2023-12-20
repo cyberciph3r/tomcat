@@ -4,7 +4,7 @@
  var n1 = prompt("Enter n1");
 var n2 = prompt("Enter n2");
 
-alert(n1+n2);
+alert(parseInt(n1)+parseInt(n2));
 </script>
 </head>
 <body>
