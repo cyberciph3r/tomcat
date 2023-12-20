@@ -1,12 +1,13 @@
 <html>
 <head>
 <script>
-alert("Hello");
+ var n1 = prompt("Enter n1");
+var n2 = prompt("Enter n2");
+
+alert(n1+n2);
 </script>
 </head>
 <body>
 <h2>Calculator</h2>
-<input id="n1" />
-<input id="n2" />
 </body>
 </html>
